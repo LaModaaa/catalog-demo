@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Каталог из таблицы – пример</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600&family=Unbounded:wght@600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css?v=1">
+</head>
+<body>
+  <header class="top">
+    <div class="wrap">
+      <p class="eyebrow">Пример для заказчика</p>
+      <h1>Наш ассортимент</h1>
+      <p class="lead">Товары на этой странице берутся из обычной таблицы. Поменяли цену или наличие в таблице – через пару минут это видно здесь.</p>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <nav class="chips" id="chips" aria-label="Разделы"></nav>
+    <p class="status" id="status" role="status">Загружаем ассортимент…</p>
+    <section class="grid" id="grid" aria-live="polite"></section>
+  </main>
+
+  <script src="config.js?v=2"></script>
+  <script src="catalog.js?v=1"></script>
+</body>
+</html>
